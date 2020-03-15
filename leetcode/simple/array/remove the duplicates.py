@@ -58,8 +58,8 @@ class Solution(object):
                     n+=1
                     nums[n]=nums[i+1]
         nums=nums[:n+1]
-        print nums
+        print(nums)
         return n+1
 
 s=Solution()
-print s.removeDuplicates(a)
+print(s.removeDuplicates(a))

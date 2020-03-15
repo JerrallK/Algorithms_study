@@ -78,4 +78,4 @@ class Solution(object):
 
 
 s=Solution()
-print s.canJump([3,2,1,0,4])
+print(s.canJump([3,2,1,0,4]))

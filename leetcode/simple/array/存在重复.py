@@ -12,4 +12,4 @@ class Solution(object):
                     return True
         return False
 s=Solution()
-print s.containsDuplicate([3,1,2])
+print(s.containsDuplicate([3,1,2]))

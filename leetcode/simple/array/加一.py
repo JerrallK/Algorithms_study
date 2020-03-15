@@ -15,4 +15,4 @@ class Solution(object):
                 digits[length_d - 1] += 1
                 return digits
 s=Solution()
-print s.plusOne([1,9,9])
+print(s.plusOne([1,9,9]))

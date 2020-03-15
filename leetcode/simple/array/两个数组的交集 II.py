@@ -21,4 +21,4 @@ class Solution(object):
 
 
 s=Solution()
-print s.intersect([1,2,2,1],[2,2])
+print(s.intersect([1,2,2,1],[2,2]))

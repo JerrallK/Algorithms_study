@@ -33,11 +33,11 @@ class Solution(object):
             for coin in coins:
                 if(i-coin>=0 and dp[i-coin]!=float("inf")):
                     dp[i]=min(dp[i],dp[i-coin]+1)
-        print dp
+        print(dp)
         if dp[amount]!=float("inf"):
             return dp[amount]
         else:
             return -1
 
 s=Solution()
-print s.coinChange([1, 2, 5],11)
+print(s.coinChange([1, 2, 5], 11))

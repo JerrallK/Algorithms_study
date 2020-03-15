@@ -36,4 +36,4 @@ class Solution(object):
         return a
 
 s=Solution()
-print s.singleNumber([1,1,2,3,3,2,4,4,5])
+print(s.singleNumber([1,1,2,3,3,2,4,4,5]))

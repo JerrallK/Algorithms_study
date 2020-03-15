@@ -8,6 +8,6 @@ class Solution(object):
         for i in range(len(prices)-1):
             if prices[i]<prices[i+1]:
                 total+=prices[i+1]-prices[i]
-        print total
+        print(total)
 s=Solution()
 s.maxProfit([7,6,4,3,1])

@@ -14,7 +14,7 @@ class Solution(object):
         #     nums[0]=end
         # print nums
         nums=nums[len_nums-k:]+nums[:k+1]
-        print nums
+        print(nums)
 
 s=Solution()
 s.rotate([1,2,3,4,5,6,7],3)
